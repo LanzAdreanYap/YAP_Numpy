@@ -1,5 +1,5 @@
 import numpy as np
-# Create an array with elements containing numbers from 1 to 100 and reshape the array to a 10x10 matrix and store it to m
+# Create an array with elements containing numbers from 1 to 100 and reshape the array to a 10x10 matrix and store it to M
 M = np.arange(1,101).reshape(10,10)
 # Change each numerical element of the matrix to the square of its value and store it to msqrd
 msqrd = M**2
